@@ -1,0 +1,92 @@
+.main {
+  /* background: url("../Assets/bgx.jpeg") no-repeat; */
+  /* object-fit: contain; */
+  /* height: 450rem; */
+  margin: 1rem;
+  width: 97%;
+}
+
+.Heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-shadow: 4px 0 black, 0 4px black, 7px 0 black, 0 3px black;
+}
+.Heading-welcome {
+  font-family: "Ms Madi", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 8rem;
+}
+.Heading-username {
+  font-family: "Ms Madi", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 6rem;
+  margin: -3rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.quote-box {
+  width: 100%;
+  max-width: 600px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.quote-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 10px 20px rgba(255, 255, 255, 0.3);
+}
+
+.Heading p {
+  text-align: center;
+}
+
+.rubik-moonrocks-regular {
+  font-family: "Rubik Moonrocks", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.permanent-marker-regular {
+  font-family: "Permanent Marker", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.yoyo {
+  background-color: rgba(0, 0, 0, 0.7); /* Black background with 70% opacity */
+}
+
+.bg-color{
+  background: linear-gradient(to bottom right, #7d3c98, #2980b9);
+}
+.task-list{
+  border-radius: 10px;
+  padding: 2rem;
+}
+.profile-card{
+  margin: auto;
+}
+.task-btn{
+  background: linear-gradient(to bottom right, #2980b9, #7d3c98);
+  color: white;
+  border: 1px solid white;
+}
+.article-section{
+  background: linear-gradient(to bottom right, #2980b9, #7d3c98);
+  color: white;
+  border: 1px solid white;
+  margin-top: 4rem;
+  padding: 2rem;
+  margin-left: 2rem;
+  border-radius: 10px;
+}

@@ -1,0 +1,34 @@
+.main-container{
+    color: black;
+    height: 80vh;
+}
+.pic{
+    background-color: white;
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-top: -4rem;
+}
+.pic img{
+    border-radius: 50%;
+}
+.user-data{
+    background-color: white;
+    width: 60%;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.upper-design{
+    height: 35%;
+    background-color: black;
+    border-radius: 16px;
+}
+.wrapper{
+    background: linear-gradient(to bottom right, #7d3c98, #2980b9);
+}
+.profile-card{
+    background-color: #7b187b6d;
+}
+.chart-bg{
+    background-color: #9d609dba;
+}
